@@ -6,6 +6,11 @@ nmcli device wifi list
 nmcli device wifi connect SSID --ask
 ```
 
+* For Intel laptops. If the onboard sound card is not working
+```bash
+sudo pacman -S sof-firmware sof-tools
+```
+
 * Install Oh My Zsh
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

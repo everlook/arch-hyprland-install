@@ -7,7 +7,8 @@ sudo pacman -S hyprland hyprpaper hyprlock waybar wofi alacritty \
   firefox fastfetch fuse2 gtk4 libadwaita tumbler \
   thunar-archive-plugin nwg-look pipewire wireplumber pipewire-jack \
   pipewire-pulse ttf-jetbrains-mono-nerd ttf-font-awesome ttf-fira-sans \
-  ttf-fira-code ttf-firacode-nerd ttf-ubuntu-font-family ttf-ubuntu-mono-nerd
+  ttf-fira-code ttf-firacode-nerd ttf-ubuntu-font-family ttf-ubuntu-mono-nerd \
+  pavucontrol bluez polkit-kde-agent noto-fonts
 ```
 
 * Select a font provider
