@@ -8,7 +8,8 @@ sudo pacman -S hyprland hyprpaper hyprlock waybar wofi alacritty \
   thunar-archive-plugin nwg-look pipewire wireplumber pipewire-jack \
   pipewire-pulse ttf-jetbrains-mono-nerd ttf-font-awesome ttf-fira-sans \
   ttf-fira-code ttf-firacode-nerd ttf-ubuntu-font-family ttf-ubuntu-mono-nerd \
-  pavucontrol bluez polkit-kde-agent noto-fonts
+  pavucontrol bluez polkit-kde-agent noto-fonts ttf-droid ttf-dejavu ttf-ubuntu-font-family \
+  noto-fonts noto-fonts-cjk noto-fonts-emoji
 ```
 
 * Select a font provider
