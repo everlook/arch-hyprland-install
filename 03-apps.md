@@ -4,7 +4,7 @@ yay -S brave-bin 1password noto-fonts-emoji
 ```
 * Tools
 ```bash
-sudo pacman -S htop ripgrep gedit bat httpie
+sudo pacman -S htop ripgrep gedit bat httpie stow
 ```
 
 * Install Rust
