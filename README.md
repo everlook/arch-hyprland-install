@@ -211,6 +211,21 @@ vim /etc/mkinitcpio.conf
 mkinitcpio -p linux
 ```
 
+* Create the Nvidia module conf
+```bash
+vim /etc/modprobe.d/nvidia.conf
+
+options nvidia NVreg_PreserveVideoMemoryAllocations=1
+options nvidia NVreg_TemporaryFilePath=/var/tmp
+```
+
+* Enable the Nvidia suspend services
+```bash
+sudo systemctl enable nvidia-suspend.service
+sudo systemctl enable nvidia-hibernate.service
+sudo systemctl enable nvidia-resume.service
+```
+
 * Install grub
 ```bash
 grub-install --efi-directory=/efi --target=x86_64-efi --bootloader-id=ArchLinux --recheck
